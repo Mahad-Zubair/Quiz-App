@@ -8,8 +8,6 @@ Welcome to the **Interactive Quiz Application**! This project is designed to pro
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 📖 Introduction
 The Interactive Quiz Application is a web-based quiz game where users can test their knowledge on different subjects. The questions are dynamically generated and the quiz keeps track of the score in real-time.
