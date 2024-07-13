@@ -1,0 +1,124 @@
+:root {
+    --hue-neutral: 200;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+}
+
+/*------------------------------------------------*/
+body {
+    --hue: var(--hue-neutral);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    background-image: url('quiz3.jpg'); /* Replace 'path/to/your/image.jpg' with your image file path */
+    background-size: cover; /* Ensure the background image covers the entire body */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+body.correct {
+    background-color: seagreen;
+}
+
+body.wrong {
+    background-color: maroon;
+}
+
+/*------------------------------------------------*/
+.container {
+    width: 800px;
+    max-width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(45px); /* Adjust the blur radius as needed */
+}
+
+/*------------------------------------------------*/
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    --hue: var(--hue-neutral);
+    padding: 15px 25px; /* Adjust padding for button size and text alignment */
+    font-size: 1.2rem; /* Adjust text size */
+    color: black;
+    background-color: hsl(var(--hue), 100%, 50%);
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for color changes */
+}
+
+.btn:hover {
+    background-color: yellowgreen;
+    border-color: yellowgreen;
+    color: black; /* Adjust text color on hover */
+}
+
+.start-btn,
+.next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px 25px; /* Adjust padding for button size and text alignment */
+    cursor: pointer;
+}
+
+/*------------------------------------------------*/
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+.question {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.question-counter {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+.score {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+
+/*------------------------------------------------*/
+.btn.correct {
+    background-color: green;
+    color: white;
+}
+
+.btn.wrong {
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <div class="score">
+            Score: <span id="right-answers">0</span>
+        </div>
+        <div id="question-container" class="hide">
+            <div id="question-counter" class="question-counter"></div>
+            <div id="question" class="question"></div>
+            <div id="answer-buttons" class="btn-grid">
+                <!-- Buttons will be dynamically created here -->
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
