@@ -1,8 +1,8 @@
-Sure, here's a README.md file for your GitHub repository:
+Sure, here's an updated README.md file with additional details in the "Open a pull request" section:
 
 ---
 
-# 🎉 Interactive Quiz Application 📝
+# 🎉 Coding Languages Quiz Application 📝
 
 Welcome to the **Interactive Quiz Application**! This project is designed to provide a fun and engaging way to test your knowledge on various topics.
 
@@ -59,14 +59,15 @@ We welcome contributions! Please follow these steps to contribute:
    ```bash
    git push origin feature/your-feature-name
    ```
-6. **Open a pull request**.
+6. **Open a pull request**:
+   - Go to the [Pull Requests](https://github.com/your-username/quiz-application/pulls) section.
+   - Click on "New pull request".
+   - Select your branch and compare it with the main branch.
+   - Provide a detailed description of your changes.
+   - Ensure your code follows the project's coding standards and includes relevant tests.
+   - If your pull request addresses an existing issue, link it in your description.
+   - Submit the pull request for review.
 
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgements
 Thanks to all contributors and supporters! Your contributions make this project better.
-
----
-
-Feel free to customize and add more details as needed. If you have any specific requirements or additional sections you'd like to include, let me know!
