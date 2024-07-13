@@ -1,6 +1,3 @@
-Sure, here's an updated README.md file with additional details in the "Open a pull request" section:
-
----
 
 # 🎉 Coding Languages Quiz Application 📝
 
