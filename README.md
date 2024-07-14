@@ -1,7 +1,7 @@
 
 # 🎉 Coding Languages Quiz Application 📝
 
-Welcome to the **Interactive Quiz Application**! This project is designed to provide a fun and engaging way to test your knowledge on various topics.
+Welcome to the **Quiz Application**! This project is designed to provide a fun and engaging way to test your knowledge on various topics.
 
 ## 📋 Table of Contents
 - [Introduction](#introduction)
@@ -10,7 +10,7 @@ Welcome to the **Interactive Quiz Application**! This project is designed to pro
 - [Usage](#usage)
 
 ## 📖 Introduction
-The Interactive Quiz Application is a web-based quiz game where users can test their knowledge on different subjects. The questions are dynamically generated and the quiz keeps track of the score in real-time.
+The Quiz Application is a web-based quiz game where users can test their knowledge on different subjects. The questions are dynamically generated and the quiz keeps track of the score in real-time.
 
 ## ✨ Features
 - Responsive and user-friendly interface 🌐
